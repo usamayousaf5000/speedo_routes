@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speedo Bus route</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Container for Starting point and ending point -->
+    <div class="container">
+        <h1>Speedo Bus Routes</h1>
+
+        <div class="form-container">
+            <label for="start-point">Starting Point:</label>
+            <select id="start-point">
+                <option value="" disabled selected>Select Starting Point</option>
+            </select>
+
+            <label for="end-point">Ending Point:</label>
+            <select id="end-point">
+                <option value="" disabled selected>Select Ending Point</option>
+            </select>
+
+            <div class="btn">
+                <button id="findBusBtn">Find Bus</button>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- Result Container for Cards -->
+    <div id="result-container" class="result-container"><br></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
